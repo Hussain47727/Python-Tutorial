@@ -26,3 +26,21 @@ print(type(price))
 print(type(old))
 print(type(a))
 
+  # Data Types 
+  #.... 1-- integers (numbers like +1, -1, 204 etc)
+  #.... 2-- string (a code we write in single code, double code or may be thipple code like ("hello world")) 
+  #....3 -- float  (in float data type are always in decimal like 3.003, 89.38)
+  #.... 4 --Bollean (in bollean there are just two values its may be true or false)
+  #.... 5 -- None (in none varable there are no any value stored)
+
+  #Keywords 
+  # Keywords are reserved words in python (like and , false, true, for etc)
+
+
+ # Print Sum
+
+ a = 9
+ b = 4
+ sum = a + b
+ print(sum)
+
