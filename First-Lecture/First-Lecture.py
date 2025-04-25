@@ -77,3 +77,12 @@ print(a > b)  #F
 print(a < b)  #T
 print(a >= b) #F
 print(a <= b) #T
+
+#3...Assignment Operators (+=,-=,*=,/=,%=)
+num = 10
+num += 10
+num -= 10
+num *= 10
+num /= 10
+num %= 10
+print(num)
