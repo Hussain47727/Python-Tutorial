@@ -47,3 +47,22 @@ diff3 = 10
 diff4 = 20
 Tdiff = diff3 - diff4
 print(Tdiff)
+
+"""Types of operator
+The operators are symbol to perform a certain operation between operands
+there are many types of operators
+1... Arithmatic operators(+,-,*,/,%,**)
+2...Relational/Comparision Operators(==,!=,>,<,>=,<=)
+3...Assignment Operators (=, +=, -=, *=, /=, %=, **=)
+4...Logical Operator( not, and , or)  
+"""
+
+#1... Arithmatic operators(+,-,*,/,%,**)
+a = 4
+b = 2
+print(a + b)
+print(a -b)
+print(a * b)
+print(a / b)
+print(a % b)
+print(a ** b)
