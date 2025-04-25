@@ -66,3 +66,14 @@ print(a * b)
 print(a / b)
 print(a % b)
 print(a ** b)
+
+#2...Relational/Comparision Operators(==,!=,>,<,>=,<=)
+a = 20
+b = 30
+
+print(a == b)  #F
+print(a != b)  #T
+print(a > b)  #F
+print(a < b)  #T
+print(a >= b) #F
+print(a <= b) #T
