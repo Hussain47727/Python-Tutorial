@@ -17,14 +17,13 @@ age = 20
 price = 3.33
 old = False
 a = None
-
 print(first, name, "and iam ", age, "years old")
-
 print(type(first))
 print(type(age))
 print(type(price))
 print(type(old))
 print(type(a))
+
 
   # Data Types 
   #.... 1-- integers (numbers like +1, -1, 204 etc)
@@ -38,9 +37,13 @@ print(type(a))
 
 
  # Print Sum
+price1 = 10
+price2 = 20
+TotalPrice = price1 + price2
+print(TotalPrice)
 
- a = 9
- b = 4
- sum = a + b
- print(sum)
-
+#print subtract
+diff3 = 10
+diff4 = 20
+Tdiff = diff3 - diff4
+print(Tdiff)
