@@ -86,3 +86,10 @@ num *= 10
 num /= 10
 num %= 10
 print(num)
+
+#Logical Operator( not, and , or)
+"""There are three types of ligical operator 
+  the first one is AND OPERATOR
+  the second one is OR OPERATOR
+  the third one is NOT OPERATOR
+  """
