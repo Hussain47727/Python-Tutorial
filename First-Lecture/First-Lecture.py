@@ -100,3 +100,43 @@ print(num)
 
 
   #input in python
+  #input () statement is used to accept values (using keyboard) from users
+ 
+name = input("enter you name :")
+age = int(input("Enter your age :"))
+marks = input("Enter your marks :")
+
+print("you name is ", name , "you are ", 20, 
+      "years old and you get", marks, "in physics")
+
+#LETS PRACTICE 
+#write a progrmae to input  2 numbers and print their sum.
+
+num1 = int(input("Enter the first number :"))
+num2 = int(input("Enter the second number :"))
+
+print("The sum of ",num1, "and ", num2, "=", num1 + num2)
+
+#Write a progrme to input side of a square and print its area
+
+square = int(input("Enter side of a square"))
+print('The areq of a square is ', square * square)
+
+#write a programe to input 2 floating points numbers and print their average
+
+n1 = float(input('Enter the first floating number :'))
+n2 = float(input("Enter the second floating number :"))
+average = (n1 + n2)/2
+print("The average of ", n1, "and", n2, "is =", average)
+
+#Write a progrmae to input 2 int numbers , a and b. Print True if a is greater than or equal to b. if not print False 
+n1 = int(input('Enter the  number :'))
+n2 = int(input("Enter the  number :"))
+
+print(n1 >= n2)
+
+
+            #THE END
+
+
+ 
