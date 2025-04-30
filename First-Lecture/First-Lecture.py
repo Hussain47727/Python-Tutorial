@@ -93,3 +93,10 @@ print(num)
   the second one is OR OPERATOR
   the third one is NOT OPERATOR
   """
+
+  #Types of conversion
+  #automatic conversion
+  #casting conversion
+
+
+  #input in python
