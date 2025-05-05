@@ -45,8 +45,8 @@ print(s1.name, s1.age, s1.marks)
 #         self.age = age
 #         self.price = price
 
-    def display_info(self):
-        print(f"Name: {self.name}, Age: {self.age}, Price: ${self.price}")
+    # def display_info(self):
+    #     print(f"Name: {self.name}, Age: {self.age}, Price: ${self.price}")
 
 class Dog(Pet):
     def __init__(self, name, age, price, breed):
