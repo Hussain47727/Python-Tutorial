@@ -48,25 +48,25 @@ print(s1.name, s1.age, s1.marks)
     # def display_info(self):
     #     print(f"Name: {self.name}, Age: {self.age}, Price: ${self.price}")
 
-class Dog(Pet):
-    def __init__(self, name, age, price, breed):
-        super().__init__(name, age, price)
-        self.breed = breed
+# class Dog(Pet):
+#     def __init__(self, name, age, price, breed):
+#         super().__init__(name, age, price)
+#         self.breed = breed
 
-    def bark(self):
-        print("Woof! Woof!")
+#     def bark(self):
+#         print("Woof! Woof!")
 
-class Cat(Pet):
-    def __init__(self, name, age, price, color):
-        super().__init__(name, age, price)
-        self.color = color
+# class Cat(Pet):
+#     def __init__(self, name, age, price, color):
+#         super().__init__(name, age, price)
+#         self.color = color
 
-    def meow(self):
-        print("Meow! Meow!")
+#     def meow(self):
+#         print("Meow! Meow!")
 
-# Create objects
-dog = Dog("Rex", 2, 300, "Labrador")
-cat = Cat("Misty", 1, 200, "White")
+# # Create objects
+# dog = Dog("Rex", 2, 300, "Labrador")
+# cat = Cat("Misty", 1, 200, "White")
 
 # Test
 dog.display_info()  # Output: Name: Rex, Age: 2, Price: $300
