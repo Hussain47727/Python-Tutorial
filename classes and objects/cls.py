@@ -69,8 +69,8 @@ print(s1.name, s1.age, s1.marks)
 # cat = Cat("Misty", 1, 200, "White")
 
 # Test
-dog.display_info()  # Output: Name: Rex, Age: 2, Price: $300
-cat.display_info()  # Output: Name: Misty, Age: 1, Price: $200
+# dog.display_info()  # Output: Name: Rex, Age: 2, Price: $300
+# cat.display_info()  # Output: Name: Misty, Age: 1, Price: $200
 
-dog.bark()  # Output: Woof! Woof!
-cat.meow()  # Output: Meow! Meow!
+# dog.bark()  # Output: Woof! Woof!
+# cat.meow()  # Output: Meow! Meow!
