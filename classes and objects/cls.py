@@ -39,11 +39,11 @@ print(s1.name, s1.age, s1.marks)
 
 #Methods 
 # Methods are the fuctions that belong  to objects.
-class Pet:
-    def __init__(self, name, age, price):
-        self.name = name
-        self.age = age
-        self.price = price
+# class Pet:
+#     def __init__(self, name, age, price):
+#         self.name = name
+#         self.age = age
+#         self.price = price
 
     def display_info(self):
         print(f"Name: {self.name}, Age: {self.age}, Price: ${self.price}")
