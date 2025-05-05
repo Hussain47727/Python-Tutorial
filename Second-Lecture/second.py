@@ -10,3 +10,13 @@ str3 = "'This is single string'"
     # How we purform different operation in string.. Basic operations
     # 1. concatination
     # "hello" + "world" = "helloworld"
+
+    # length of str
+print(len(str1))
+
+    #slicing
+"""accessing part of a string : str[starting_ind : ending_ind]
+were ending index is not included"""
+
+str = "iamhussainisrar"
+print(str[3:10])
