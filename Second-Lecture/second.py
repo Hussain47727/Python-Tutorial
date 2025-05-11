@@ -31,3 +31,6 @@ print(len(userName))
 
 st1 = "hi $iam israr $hussain and i get 400$ salary in five year"
 print(st1.count("$"))
+
+
+
