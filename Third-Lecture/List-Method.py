@@ -27,8 +27,19 @@ print(List)
 # 4. List.insert
 # it is similar to list.append but it insert element in a particular index
 
-list.insert(2, "ahmad")
+List.insert(2, "ahmad")
 print(List)
 
+# 5. List.remove
+# this method is use to remove any element from the list
+
+List.remove(3)
+print(List)
+
+# 6. List.pop 
+# this is similar to list.remove but its use to remove a particular index
+
+List.pop(2)
+print(List)
 
 
