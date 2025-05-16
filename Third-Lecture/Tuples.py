@@ -7,3 +7,5 @@ tup = (2, 3, 5, 6)
 print(tup)
 print(type(tup))
 print([1])
+
+# bro we will study it further
