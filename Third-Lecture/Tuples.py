@@ -26,13 +26,15 @@ print(list)
 
       # OR
 
-movies = []
-m1 = input('enter 1st : ')
-m2 = input('enter 2nd : ')
-m3 = input('enter 3rd : ')
+# movies = []
+# m1 = input('enter 1st : ')
+# m2 = input('enter 2nd : ')
+# m3 = input('enter 3rd : ')
 
-movies.append(m1)
-movies.append(m2)
-movies.append(m3)
+# movies.append(m1)
+# movies.append(m2)
+# movies.append(m3)
 
-print(movies)
+# print(movies)
+
+
