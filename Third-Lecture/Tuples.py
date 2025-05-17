@@ -8,4 +8,8 @@ print(tup)
 print(type(tup))
 print([1])
 
-# bro we will study it further
+ # Methods in Tuple
+ # Tuple.index(el) .. Returns index of first occurrence
+print(tup.index(2))
+ # Tuple.count(el) .. Counts total occurrences
+print(tup.count(2))
