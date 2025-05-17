@@ -37,4 +37,30 @@ print(list)
 
 # print(movies)
 
+# Q2.. WAP to check if a list contains a palindrom of elements. (Hint: use copy() method)
+ 
+list1 = [1,2,3,3,1]
 
+list_copy = list1.copy()
+list_copy.reverse()
+
+if(list1 == list_copy):
+    print("List is palindrom")
+else:
+    print("not palindrom")
+
+print(list1)
+
+# Q3.. WAP to count the number of students with the "A" grade in the following tuple
+
+grade = ("c", "D", "A", "A", "B", "B", "A")
+print(grade.count("A"))
+
+# Q4 store the above values in a list  and sort them from "A" to "D"
+
+sort = ["c", "D", "A", "A", "B", "B", "A"]
+sort.sort()
+print(sort)
+ 
+
+    #   THE END
