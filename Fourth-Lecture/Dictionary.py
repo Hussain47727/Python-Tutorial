@@ -12,3 +12,15 @@ dic = {
     }
 print(dic)
 print(type(dic))
+
+ #Nested Dictionaries
+# Nested Dictionaries are used to make nesting list in dictionaries.. for example
+student ={
+  "name" : "Rahus kumar",
+  "subjects" : {
+    "phy" : 80,
+    "che" : 30,
+    "bio" : 90
+  }
+ }
+print(student["subjects"]["bio"])
