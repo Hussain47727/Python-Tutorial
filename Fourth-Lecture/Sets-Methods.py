@@ -27,3 +27,7 @@ print(len(collection))
 students = {"ali", "asghar", "abbas", "mujtaba"}
 print(students.pop())
 print(students.pop())
+
+# 5.. set.union
+# combines both set values and return new
+
