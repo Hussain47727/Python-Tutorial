@@ -28,6 +28,29 @@ students = {"ali", "asghar", "abbas", "mujtaba"}
 print(students.pop())
 print(students.pop())
 
-# 5.. set.union
+# 5.. set.union(set2)
 # combines both set values and return new
+set1 = {1, 2, 3, 4}
+set2 = {4,5,6}
+print(set1.union(set2))
 
+# 6.. set.intersection(set2)
+# Combine common values and return new
+print(set1.intersection(set2))
+
+     # SMALL PROBLEMS
+# 1. Store following words meaning in a python dictionary
+# table : "a piece of furniture", "list of facts and figure"
+# cat : " a small animal "
+
+dic = {
+    'table' : ("a piece of furniture", "list of facts and figur"),
+    'cat': 'a small animal'
+}
+print(dic)
+print(type(dic))
+
+# 2. You are given a list of students. Assume one classroom is required for 1 subject
+# How many classrooms are needed by all the students.
+# "python", "java", "c++", "javascript"
+# "JAVA", "python", "java", "c"
