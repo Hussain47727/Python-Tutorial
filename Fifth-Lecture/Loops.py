@@ -51,10 +51,26 @@ while i <= 10:
 
 # 4..PRINT THE ELEMENTS OF THE FOLLOWING LIST USING LOOP
 
-nums = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+nums = []
 
 idx = 0
 
 while idx < len(nums):
     print(nums[idx])
     idx += 1
+
+# 5..SEARCH FOR A NUMBER X IN THIS TUPLE USING LOOP:
+# (1, 4, 9, 16, 25, 36, 49, 64, 81, 100)
+
+search = (1, 4, 9, 16, 25, 36, 49, 64, 81, 100)
+
+ # here we will search for 25
+
+index = 0
+
+x = 25
+
+while index < len(search):
+    if(search[index] == x):
+        print(x, "is found at index", index)
+    index += 1
