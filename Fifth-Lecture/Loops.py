@@ -41,9 +41,12 @@ while i >= 1:
 
 # lets print a table of 3
  
-table = 3
+table = int(input("Enter the number you want to print the table"))
 i = 1
 
 while i <= 10:
     print(table * i)
     i += 1
+
+# 4..PRINT THE ELEMENTS OF THE FOLLOWING LIST USING LOOP
+
