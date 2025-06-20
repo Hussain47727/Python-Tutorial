@@ -40,8 +40,31 @@ tk.Label(window, text="Click then up or down arrow to resize,\nleft or right arr
 
 # Checkbox: Allow radio btns (top right)
 allow_radio_var = tk.IntVar(value=1)
-tk.Checkbutton(window, text="Allow radio btns", variable=allow_radio_var, bg='light grey').place(x=550, y=70)
+tk.Checkbutton(window, text="Allow radio btns",font=('Arial', 12, 'bold'), variable=allow_radio_var, bg='light grey').place(x=550, y=70)
 
+# Radio group: Low/Med/High
+level_var = tk.StringVar(value="Med")
+tk.Radiobutton(window, text="Low", variable=level_var, value="Low",bg='light grey', font=('Arial', 11, 'bold'),indicatoron=False, width=10, relief='raised', bd=2).place(x=580, y=130)
+tk.Radiobutton(window, text="Med", variable=level_var, value="Low",bg='light grey', font=('Arial', 11, 'bold'),indicatoron=False, width=10, relief='raised', bd=2).place(x=580, y=170)
+tk.Radiobutton(window, text="High", variable=level_var, value="Low",bg='light grey', font=('Arial', 11, 'bold'),indicatoron=False, width=10, relief='raised', bd=2).place(x=580, y=210)
+
+# Another checkbox: Allow Radio Buttons
+allow_radio_2 = tk.IntVar(value=1)
+tk.Checkbutton(window, text="Allow Radio Buttons", font=('Arial', 11, 'bold'), variable=allow_radio_2, bg='light grey').place(x=550, y=270)
+
+# Another set of radio buttons
+radio_var = tk.StringVar(value="Radio Text 2")
+tk.Radiobutton(window, text="Radio Text 1",font=('Arial', 11, 'bold'), variable=radio_var, value="Radio Text 1", bg='light grey').place(x=580, y=300)
+tk.Radiobutton(window, text="Radio Text 2",font=('Arial', 11, 'bold'), variable=radio_var, value="Radio Text 2", bg='light grey').place(x=580, y=330)
+tk.Radiobutton(window, text="Radio Text 3",font=('Arial', 11, 'bold'), variable=radio_var, value="Radio Text 3", bg='light grey').place(x=580, y=360)
+
+# Show Status button
+tk.Button(window, text="Show Status",font=('Arial', 11, 'bold'), width=12).place(x=590, y=400)
+
+# START button (bottom right)
+tk.Button(window, text="START", font=('Arial', 12, 'bold'), bg='light grey', width=15, height=2).place(x=520, y=480)
+
+tk.Label(window, text="Click then type l, r, d, u, s, or Space",font=('Arial', 9, 'bold'), bg='light grey', justify='left').place(x=520, y=540)
 
 window.mainloop()
 
