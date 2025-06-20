@@ -6,5 +6,8 @@ class snake:
         self.root = root
         self.root.title('Snake Game')
         self.canvas = tk.Canvas(root, width=400, height=400,bg='red')
+        self.canvas.pack()
+        self.snake = [[100,100]]
+        self.food = self.spawn_food
 
 
