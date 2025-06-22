@@ -11,7 +11,7 @@ class snake:
         self.food = self.create_food()
         self.direction = 'right'
         self.running = True
-        
+        self.move_snake()
 
 
 
