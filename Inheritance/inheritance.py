@@ -32,4 +32,21 @@
 # car1.show_brand()
 # car1.show_model()
 
+class Vehical :
+    def __init__(self, brand):
+        self.brand = brand
+    def show_brand(self):
+        print('brand :', self.brand)
+
+class Car(Vehical):
+    def __init__(self, brand, price):
+        super().__init__(brand)
+        self.price = price
+    def show_price(self):
+        print("price :", self.price)
+
+car1 =Car('toyota', 3000)
+car1.show_brand()
+car1.show_price()
+
         
