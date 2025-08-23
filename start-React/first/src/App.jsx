@@ -8,8 +8,10 @@ function App() {
 
   return (
     <>
-      <h1>hello world</h1>
-      <p>This is my project!</p>
+      <h1>React Counter</h1>
+      <p>count : {count}</p>
+      <button onClick={() =>setCount(count + 1)}>Increase</button>
+      <button onClick={() =>setCount(count - 1 )}>Decrease</button>
     </>
   )
 }
