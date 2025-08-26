@@ -27,4 +27,27 @@
 //   );
 // };
 
+import { useState } from "react";
+
+function Welcome(){
+  return(
+    <h1>This is my first component !</h1>
+  )
+}
+
+function React(){
+  return(
+    <h1>Welcome back boss</h1>
+  )
+}
+
+function App(){
+  return(
+    <>
+    <Welcome/>
+    <React/>
+    </>
+  )
+}
+
 export default App;
