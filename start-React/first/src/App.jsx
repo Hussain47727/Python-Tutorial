@@ -41,13 +41,30 @@ function React(){
   )
 }
 
+function Man(props){
+  return(
+    <div>
+      <p>hello iam {props.name}</p>
+      <p>iam {props.age} years old</p>
+      <p>i study in class {props.class}</p>
+      <p>now i start learning {props.course}</p>
+    </div>
+    
+  )
+}
+
+
 function App(){
   return(
     <>
     <Welcome/>
     <React/>
+    <Man name='israr' age='20' class='thirdyear' course='React '/>
     </>
   )
 }
+
+
+
 
 export default App;
