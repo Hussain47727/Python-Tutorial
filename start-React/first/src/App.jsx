@@ -60,6 +60,7 @@ function App(){
     <Welcome/>
     <React/>
     <Man name='israr' age='20' class='thirdyear' course='React '/>
+    
     </>
   )
 }
